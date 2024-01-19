@@ -96,4 +96,6 @@ const uint32_t PROGMEM unicode_map[] = {
     [0] = 0x03BB,  // λ
     [1] = 0x03BC,  // μ
     [2] = 0x03C0,  // π
+    [3] = 0x03B8,  // θ
+    [4] = 0x03B1,  // α
 };
