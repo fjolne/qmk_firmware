@@ -92,14 +92,8 @@ combo_t key_combos[COMBO_COUNT] = {
 
 // unicode characters
 
-enum unicode_names {
-    BANG,
-    IRONY,
-    SNEK
-};
-
 const uint32_t PROGMEM unicode_map[] = {
-    [BANG]  = 0x203D,  // ‽
-    [IRONY] = 0x2E2E,  // ⸮
-    [SNEK]  = 0x1F40D, // 🐍
+    [0] = 0x03BB,  // λ
+    [1] = 0x03BC,  // μ
+    [2] = 0x03C0,  // π
 };
